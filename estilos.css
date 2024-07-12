@@ -1,0 +1,218 @@
+.portada {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/fondo portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloportada, .titulopartidos .tituloclasi, .tituloresultados {
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
+}
+.tituloinformacion {
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botones p {
+    margin: 0; 
+}
+
+.botones a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botones a:hover {
+    background-color: #8ea2fc;
+}
+
+
+.tablas {
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tabla {
+    width: calc(50% - 5px);
+    margin-bottom: 10px;
+}
+
+.tabla table {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.tabla h2 {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabla table th,
+.tabla table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+.tabla table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.tabla_resultado table {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.tabla_resultado h2 {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabla_resultado table th,
+.tabla_resultado table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla_resultado table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.resultados {
+    background-image: url('img/fondo portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.jugadores, .equipos, .informacion, .clasificados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/fondo portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.titulojugadores, .titulopartidos {
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tablas_jugadores {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tabla_pais {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tabla_pais h2 {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.tabla_pais table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla_pais table th,
+.tabla_pais table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla_pais table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.partidos {
+    background-image: url('img/fondo portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.titulopartidos {
+    font-size: 3rem;
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tabla_partido {
+    margin-bottom: 20px;
+    background-color: #ffffff; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tabla_partido h2 {
+    background-color: #3d9bff; 
+    color: #ffffff; 
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.tabla_partido table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla_partido table th,
+.tabla_partido table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla_partido table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
